@@ -3,6 +3,6 @@
  */
 Meteor.startup(function() {
   if (typeof(ngMeteor) !== 'undefined') {
-    ngMeteor.requires.push('ment.io');
+    ngMeteor.requires.push('mentio');
   }
 });
