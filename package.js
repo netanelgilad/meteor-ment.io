@@ -1,6 +1,6 @@
 Package.describe({
   summary: " Mentions and Macros for Angular",
-  version: "0.0.1",
+  version: "0.0.2",
   git: "https://github.com/netanelgilad/meteor-ment.io.git"
 });
 
