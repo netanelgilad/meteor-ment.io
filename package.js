@@ -9,10 +9,10 @@ Package.onUse(function(api) {
 
   api.use('urigo:ngmeteor@0.2.0', 'client');
 
-  api.addFiles('mentio.min.js');
-  api.addFiles('templates.js');
+  api.addFiles('mentio.min.js', 'client');
+  api.addFiles('templates.js', 'client');
 
-  api.addFiles('init.js');
+  api.addFiles('init.js', 'client');
 });
 
 Package.onTest(function(api) {
