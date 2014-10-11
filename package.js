@@ -7,7 +7,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.1');
 
-  api.use('urigo:ngmeteor@0.2.0', 'client');
+  api.use('urigo:ngmeteor@0.4.2', 'client');
 
   api.addFiles('mentio.js', 'client');
   api.addFiles('templates.js', 'client');
