@@ -1,6 +1,6 @@
 Package.describe({
   summary: " Mentions and Macros for Angular",
-  version: "0.0.7",
+  version: "0.9.4",
   git: "https://github.com/netanelgilad/meteor-ment.io.git",
   name: "netanelgilad:ment.io"
 });
@@ -8,11 +8,9 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('METEOR@0.9.1');
 
-  api.use('urigo:angular@0.7.2', 'client');
+  api.use('angular:angular@1.2.18', 'client');
 
-  api.addFiles('mentio.min.js', 'client');
-
-  api.addFiles('init.js', 'client');
+  api.addFiles('mentio.js', 'client');
 });
 
 Package.onTest(function(api) {
